@@ -8,6 +8,10 @@ import * as robotjs from "robotjs";
 function parseParams(args: string[]) {
   // todo: implement
   throw Error("Not implemented");
+
+  // Add flags for each expected action
+  // Context-like structure?
+  // Depending on flags, add operations (order might be problematic?)
 }
 
 const params = parseParams(process.argv);
