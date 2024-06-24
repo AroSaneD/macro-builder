@@ -5,18 +5,18 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node ./index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@8.10.5+sha1.4370a069f21873a0ad83c785b8048ed8caf6e6e9",
   "dependencies": {
-    "robotjs": "^0.6.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.2"
   },
   "devDependencies": {
-    "@types/node": "^20.14.8"
+    "@types/node": "^20.14.8",
+    "vitest": "^1.6.0"
   }
 }

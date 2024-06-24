@@ -1,4 +1,5 @@
 import * as robotjs from "robotjs";
+import { CommandBuilder } from "./CommandBuilder";
 
 // function rightClick() {
 //   robotjs.mouseClick("right");
@@ -15,3 +16,6 @@ function parseParams(args: string[]) {
 }
 
 const params = parseParams(process.argv);
+const b = new CommandBuilder();
+
+// Add filters

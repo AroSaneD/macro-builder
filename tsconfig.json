@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "module": "CommonJS",
+        "module": "ESNext",
         "alwaysStrict": true,
         "strict": true,
         "strictNullChecks": true,
@@ -12,6 +12,7 @@
         "noImplicitOverride": true,
         "noImplicitReturns": true,
         "noImplicitThis": true,
+        "target": "es2022",
     },
     "exclude": [
         "node_modules"
